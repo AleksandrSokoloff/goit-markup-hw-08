@@ -7,7 +7,7 @@
 
 .description-list__item {
   &:not(:last-child) {
-    margin-bottom: 56px;
+    margin-bottom: 30px;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -43,13 +43,11 @@
 
 .description-list__title {
   margin-bottom: 10px;
-
-  text-align: center;
+  text-align: left;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
-
   color: $main-color-shadow-var2;
 }
 
